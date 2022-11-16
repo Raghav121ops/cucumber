@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="68017" started-at="2022-03-05T09:08:11Z" finished-at="2022-03-05T09:09:19Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.testRunners.MyTestRunner@d44fc21]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="68017" started-at="2022-03-05T09:08:11Z" finished-at="2022-03-05T09:09:19Z">
+      <class name="org.testRunners.MyTestRunner">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:org.testRunners.MyTestRunner@d44fc21]" name="setUpClass" is-config="true" duration-ms="4036" started-at="2022-03-05T14:38:11Z" finished-at="2022-03-05T14:38:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7c1a8f0f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.testRunners.MyTestRunner@d44fc21]" name="runScenario" duration-ms="20690" started-at="2022-03-05T14:38:15Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-05T14:38:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["ActiTime Login Page title"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Actitime Login Feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.testRunners.MyTestRunner@d44fc21]" name="runScenario" duration-ms="15957" started-at="2022-03-05T14:38:35Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-05T14:38:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Keep me logged in checkbox"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Actitime Login Feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.testRunners.MyTestRunner@d44fc21]" name="runScenario" duration-ms="13790" started-at="2022-03-05T14:38:51Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-05T14:39:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["ActiTime Login Test Case"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Actitime Login Feature]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at stepDefinitions.LoginStepDef.home_Page_title_should_be(LoginStepDef.java:49)
+	at ✽.Page title should be "actiTIME -  Enter Time-Track123"(file:///G:/TestF/FrameworkActitimeEx1/src/test/resources/org/features/LoginPage.feature:17)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:org.testRunners.MyTestRunner@d44fc21]" name="tearDownClass" is-config="true" duration-ms="13418" started-at="2022-03-05T14:39:05Z" finished-at="2022-03-05T14:39:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- org.testRunners.MyTestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
